@@ -12,8 +12,8 @@ group :development do
 end
 group :production do
   #Production on Heroku
-  gem pg
-  gem rails_12factor
+  gem 'pg'
+  gem 'rails_12factor'
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
